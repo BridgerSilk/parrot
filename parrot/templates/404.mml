@@ -1,0 +1,14 @@
+static i32 error = 404
+static str msg = "Not found."
+
+doc!.mml
+(&mml){
+    (&head){
+        (&meta charset.[utf-8])
+        (&title){:error: - :msg:}.&title
+    }.&head
+    (&body){
+        (&h1){:error:}.&h1
+        (&text){:msg:}.&text
+    }.&body
+}.&mml

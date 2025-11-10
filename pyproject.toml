@@ -1,0 +1,9 @@
+[project]
+name = "parrot"
+version = "0.1.0"
+description = "Parrot — async Python HTTP server with real-time MML support"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+	"aiohttp>=3.8"
+]
